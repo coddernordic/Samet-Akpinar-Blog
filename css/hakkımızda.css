@@ -1,0 +1,55 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	display: grid;
+	place-items: center;
+}
+
+/* Navbar Starting */
+
+.navbar {
+	width: 110%;
+}
+
+.collapse {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+/* Navbar Ending */
+
+/* About Us Starting */
+
+.second-container, h1, p {
+	background-color: #343a40;
+	border-radius: 7px;
+	display: inline-block;
+	padding: 15px;
+	margin: 15px;
+	text-align: justify;
+}
+
+.second-container, h1 {
+	margin-left: 150px;
+}
+
+.photo {
+	width: 250px;
+	height: 250px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	border-radius: 999px;
+}
+
+/* About Us Ending */
+
+/* Footer Starting */
+
+.card {
+	width: 110%;
+	margin-top: 50px;
+}
+
+/* Footer Ending */
